@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="Examination" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="Board" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="Percentage" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="Year of passing" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="class X"
+            />
+        <EditText
+            android:layout_width="100dp"
+            android:padding="10dp"/>
+        <EditText
+            android:layout_width="100dp"
+            android:padding="10dp"/>
+        <EditText
+            android:layout_width="100dp"
+            android:padding="10dp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="Class XII"
+            />
+        <EditText
+            android:layout_width="100dp"
+            android:padding="10dp"/>
+        <EditText
+            android:layout_width="100dp"
+            android:padding="10dp"/>
+        <EditText
+            android:layout_width="100dp"
+            android:padding="10dp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="Graduation" />
+        <EditText
+            android:layout_width="100dp"
+            android:padding="10dp"/>
+        <EditText
+            android:layout_width="100dp"
+            android:padding="10dp"/>
+        <EditText
+            android:layout_width="100dp"
+            android:padding="10dp"/>
+    </TableRow>
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginHorizontal="120dp"
+            android:text="SUBMIT" />
+    
+</TableLayout>
