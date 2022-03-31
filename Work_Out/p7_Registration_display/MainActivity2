@@ -1,0 +1,24 @@
+package com.example.p7_registration_from;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class MainActivity2 extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main2);
+
+        TextView t=findViewById(R.id.t);
+
+        Bundle b=getIntent().getExtras();
+        String val=b.getString("detail");
+
+        t.setText(t.getText().toString()+" "+val);
+        Toast.makeText(this, "Successful "+val, Toast.LENGTH_SHORT).show();
+    }
+}
